@@ -11976,3 +11976,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.ressource__icon,
+.ressource__icon > img {
+  width: 4em;
+  height: 4em;
+}
