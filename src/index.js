@@ -1,29 +1,22 @@
 import { ressourceData } from '../src/data.js';
 
-const categoryName = 'Documentation';
 
-const categoryNames = new Set(
-    ressourceData.map((ressource) => ressource.category.split(' ').join('-'))
-);
+const categoryNames = [
+    ...new Set(ressourceData.map((ressource) => ressource.category)),
+];
 
-console.log(categoryNames);
-console.log(Object.values(categoryNames));
+for (let i = 0; i < categoryNames.length; i++) {
+    const ressourceFilter = ressourceData.filter(
+        (ressource) => ressource.category == categoryNames[i]
+    );
 
-for (let i = 0; i < categoryNames.lenght; i++) {
-    console.log('1');
-}
-
-const categoryFilter = ressourceData.filter(
-    (ressource) => ressource.category == categoryName
-);
-
-const ressourceNames = categoryFilter
-    .map((ressource) => {
-        const categoryId = `collapse__info--${ressource.name.replace(
-            /[ .]/g,
-            '-'
-        )}`;
-        return `
+    const ressourceNames = ressourceFilter
+        .map((ressource) => {
+            const categoryId = `collapse__info--${ressource.name.replace(
+                /[ .]/g,
+                '-'
+            )}`;
+            return `
         <li>
             <div
                 class="d-flex align-items-center"
@@ -67,9 +60,10 @@ const ressourceNames = categoryFilter
             > ${ressource.description}
             </div>
     </li>`;
-    })
-    .join(' ');
+        })
+        .join(' ');
 
-const docTest = document.querySelector('#card1__ul');
+    const docTest = document.querySelector(`#card${i + 1}__ul`);
 
-docTest.innerHTML = ressourceNames;
+    docTest.innerHTML = ressourceNames;
+}
