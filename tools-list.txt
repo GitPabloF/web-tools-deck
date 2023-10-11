@@ -1,0 +1,83 @@
+
+
+4. Outils de Gestion de Versions :
+GitHub
+GitLab
+Bitbucket
+
+
+7. Tests et Débogage :
+
+BrowserStack
+Selenium
+Cypress
+
+WebAIM
+a11yproject
+axe
+
+------
+
+#  
+
+- ...
+
+# Programming tools : ⚙️
+- GitHub
+- Netifly 
+- CodePen 
+- jsbin
+- stackblitz
+- jsonplaceholder
+
+
+#  Documentation : 👓
+MDN Web Docs
+DevDocs
+JavaScript.info
+bootstrap
+Taillwind
+React
+next JS
+Angular
+Vue.js
+jQuery
+
+# Tricks & technology watch 🔍
+StackOverFlow
+daily.dev
+dev.to
+CSS-Tricks 
+smashingmagazine 
+sitepoint
+
+# Styling & Image : 🎨
+- Google Fonts
+- Typekit
+- CSS Fradeint 
+- Palette 
+- AdobeColor
+- Font Awesome
+- icon8
+- FreePik 
+- imageresizer
+- TinyPNG
+- Dribbble
+- Awwwards
+- Animate.css
+
+
+#  Learn and practice :🎓
+- freeCodeCamp-
+- totaltypescript
+- Codecademy
+- OpenClassrooms
+- Coursera
+- Udemy 
+- leetcode
+- exercism
+
+# SEO & Debugging 
+- Google PageSpeed
+- GTmetrix
+- 
