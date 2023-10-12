@@ -1,6 +1,5 @@
 import { ressourceData } from '../src/data.js';
 
-
 const categoryNames = [
     ...new Set(ressourceData.map((ressource) => ressource.category)),
 ];
@@ -17,12 +16,12 @@ for (let i = 0; i < categoryNames.length; i++) {
                 '-'
             )}`;
             return `
-        <li>
+        <li class="my-2">
             <div
                 class="d-flex align-items-center"
             >
                 <div
-                    class="ressource__icon rounded-circle me-3"
+                    class="ressource__icon rounded-circle me-2"
                 >
                     <img
                         class="rounded-circle"
@@ -31,29 +30,36 @@ for (let i = 0; i < categoryNames.length; i++) {
                     />
                 </div>
                 <div
-                    class="ressource__details me-3"
+                class="d-flex flex-fill justify-content-between"
+            >
+                <div
+                    class="d-flex ressource__details me-2"
                 >
-                    <h4 class="fs-5">
+                    <h4 class="fs-6 fw-bold m-0 align-self-center">
                         ${ressource.name}
                     </h4>
                 </div>
-                <button
-                    class="btn btn-primary me-2 text-primary bg-white"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#${categoryId}"
-                    aria-expanded="false"
-                    aria-controls="collapse__info"
+                <div
+                    class="buttons d-flex flex-NO-wrap align-items-center"
                 >
-                    info
-                </button>
-                <a
-                target=”_blank” href="${ressource.link}"
-                    class="btn btn-primary ressource__button"
-                    >view</a
-                >
+                    <button
+                        class="btn btn-primary me-2 text-primary bg-white"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#${categoryId}"
+                        aria-expanded="false"
+                        aria-controls="collapse__info"
+                    >
+                        info
+                    </button>
+                    <a
+                        href="${ressource.link}"
+                        class="btn btn-primary ressource__button"
+                        >view</a
+                    >
+                </div>
             </div>
-
+            </div>
             <div
                 class="collapse mt-2 p-2"
                 id=${categoryId}
