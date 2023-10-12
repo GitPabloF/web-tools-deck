@@ -74,7 +74,7 @@ export const ressourceData = [
     },
     {
         name: 'Bootstrap',
-        link: 'https://getbootstrap.com/',
+        link: 'https://getbootstrap.com/docs',
         category: 'Documentation',
         imageLink: "URL_de_l'image",
         description:
@@ -82,7 +82,7 @@ export const ressourceData = [
     },
     {
         name: 'Tailwind CSS',
-        link: 'https://tailwindcss.com/',
+        link: 'https://tailwindcss.com/docs',
         category: 'Documentation',
         imageLink: "URL_de_l'image",
         description:
@@ -90,7 +90,7 @@ export const ressourceData = [
     },
     {
         name: 'React',
-        link: 'https://reactjs.org/',
+        link: 'https://react.dev/reference/react',
         category: 'Documentation',
         imageLink: "URL_de_l'image",
         description:
@@ -98,7 +98,7 @@ export const ressourceData = [
     },
     {
         name: 'Next.js',
-        link: 'https://nextjs.org/',
+        link: 'https://nextjs.org/docs',
         category: 'Documentation',
         imageLink: "URL_de_l'image",
         description:
@@ -106,7 +106,7 @@ export const ressourceData = [
     },
     {
         name: 'Angular',
-        link: 'https://angular.io/',
+        link: 'https://angular.io/docs',
         category: 'Documentation',
         imageLink: "URL_de_l'image",
         description:
@@ -114,7 +114,7 @@ export const ressourceData = [
     },
     {
         name: 'Vue.js',
-        link: 'https://vuejs.org/',
+        link: 'https://vuejs.org/guide/introduction',
         category: 'Documentation',
         imageLink: "URL_de_l'image",
         description:
@@ -122,7 +122,7 @@ export const ressourceData = [
     },
     {
         name: 'jQuery',
-        link: 'https://jquery.com/',
+        link: 'https://jquery.com/docs',
         category: 'Documentation',
         imageLink: "URL_de_l'image",
         description:

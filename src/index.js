@@ -1,9 +1,11 @@
 import { ressourceData } from '../src/data.js';
 
+// create an array with all the categories
 const categoryNames = [
     ...new Set(ressourceData.map((ressource) => ressource.category)),
 ];
 
+// loop that add the ressources for each category
 for (let i = 0; i < categoryNames.length; i++) {
     const ressourceFilter = ressourceData.filter(
         (ressource) => ressource.category == categoryNames[i]
@@ -25,7 +27,7 @@ for (let i = 0; i < categoryNames.length; i++) {
                 >
                     <img
                         class="rounded-circle"
-                        src="src/img/style-img.png"
+                        src="https://besticon-demo.herokuapp.com/icon?url=${ressource.link}&size=32..50..120"
                         alt="${ressource.name} icon"
                     />
                 </div>
@@ -71,7 +73,6 @@ for (let i = 0; i < categoryNames.length; i++) {
         })
         .join(' ');
 
-    const docTest = document.querySelector(`#card${i + 1}__ul`);
-
-    docTest.innerHTML = ressourceNames;
+    // add to the DOM
+    document.querySelector(`#card${i + 1}__ul`).innerHTML = ressourceNames;
 }
