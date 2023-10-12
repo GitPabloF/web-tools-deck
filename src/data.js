@@ -279,4 +279,69 @@ export const ressourceData = [
         image: 'lien_de_l_image',
         description: 'A library of cross-browser CSS animations.',
     },
+    // Leand and Practice
+    {
+        name: 'freeCodeCamp',
+        link: 'https://www.freecodecamp.org/',
+        category: 'Learn and Practice',
+        image: 'URL_de_l_image_freecodecamp',
+        description:
+            'A free, open-source curriculum for learning web development, data visualization, and more.',
+    },
+    {
+        name: 'Total TypeScript',
+        link: 'https://totaltypescript.com/',
+        category: 'Learn and Practice',
+        image: 'URL_de_l_image_totaltypescript',
+        description:
+            'A comprehensive resource to learn TypeScript from scratch.',
+    },
+    {
+        name: 'Codecademy',
+        link: 'https://www.codecademy.com/',
+        category: 'Learn and Practice',
+        image: 'URL_de_l_image_codecademy',
+        description:
+            'Interactive coding lessons and projects to learn various programming languages.',
+    },
+    {
+        name: 'OpenClassrooms',
+        link: 'https://openclassrooms.com/',
+        category: 'Learn and Practice',
+        image: 'URL_de_l_image_openclassrooms',
+        description:
+            'Online courses on web development, data science, and more, in French and English.',
+    },
+    {
+        name: 'Coursera',
+        link: 'https://www.coursera.org/',
+        category: 'Learn and Practice',
+        image: 'URL_de_l_image_coursera',
+        description:
+            'Online courses, specializations, and degrees from top universities and companies.',
+    },
+    {
+        name: 'Udemy',
+        link: 'https://www.udemy.com/',
+        category: 'Learn and Practice',
+        image: 'URL_de_l_image_udemy',
+        description:
+            'Online courses on a wide range of topics, including web development and programming.',
+    },
+    {
+        name: 'LeetCode',
+        link: 'https://leetcode.com/',
+        category: 'Learn and Practice',
+        image: 'URL_de_l_image_leetcode',
+        description:
+            'Practice coding challenges, prepare for technical interviews, and improve your coding skills.',
+    },
+    {
+        name: 'Exercism',
+        link: 'https://exercism.io/',
+        category: 'Learn and Practice',
+        image: 'URL_de_l_image_exercism',
+        description:
+            'Exercism provides coding challenges and mentorship to help you level up your programming skills.',
+    },
 ];

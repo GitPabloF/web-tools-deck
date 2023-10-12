@@ -26,7 +26,7 @@ for (let i = 0; i < categoryNames.length; i++) {
                     <img
                         class="rounded-circle"
                         src="src/img/style-img.png"
-                        alt=""
+                        alt="${ressource.name} icon"
                     />
                 </div>
                 <div
@@ -35,7 +35,7 @@ for (let i = 0; i < categoryNames.length; i++) {
                 <div
                     class="d-flex ressource__details me-2"
                 >
-                    <h4 class="fs-6 fw-bold m-0 align-self-center">
+                    <h4 class="fs-5 fw-bold m-0 align-self-center">
                         ${ressource.name}
                     </h4>
                 </div>
@@ -43,19 +43,21 @@ for (let i = 0; i < categoryNames.length; i++) {
                     class="buttons d-flex flex-NO-wrap align-items-center"
                 >
                     <button
-                        class="btn btn-primary me-2 text-primary bg-white"
+                        class="btn btn-primary me-2 text-primary bg-white text-uppercase fs-6"
                         type="button"
                         data-bs-toggle="collapse"
+                        aria-label="info"
                         data-bs-target="#${categoryId}"
                         aria-expanded="false"
                         aria-controls="collapse__info"
                     >
-                        info
+                    <i class="bi bi-info-circle"></i>
                     </button>
                     <a
+                    target='_blank'
                         href="${ressource.link}"
                         class="btn btn-primary ressource__button"
-                        >view</a
+                        >OPEN</a
                     >
                 </div>
             </div>
