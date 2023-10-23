@@ -6,7 +6,7 @@ export const ressourceData = [
         category: 'Programming Tools',
         image: 'lien_de_l_image',
         description:
-            'A web-based platform for version control and collaboration using Git.',
+            'A web-based platform for version control and collaboration using Git.'
     },
     {
         name: 'Netlify',
@@ -14,7 +14,7 @@ export const ressourceData = [
         category: 'Programming Tools',
         image: 'lien_de_l_image',
         description:
-            'A hosting and automation platform for modern web projects.',
+            'A hosting and automation platform for modern web projects.'
     },
     {
         name: 'CodePen',
@@ -22,7 +22,7 @@ export const ressourceData = [
         category: 'Programming Tools',
         image: 'lien_de_l_image',
         description:
-            'An online community for testing and showcasing HTML, CSS, and JavaScript code snippets.',
+            'An online community for testing and showcasing HTML, CSS, and JavaScript code snippets.'
     },
     {
         name: 'jsbin',
@@ -30,7 +30,7 @@ export const ressourceData = [
         category: 'Programming Tools',
         image: 'lien_de_l_image',
         description:
-            'A live pastebin for HTML, CSS, and JavaScript code snippets.',
+            'A live pastebin for HTML, CSS, and JavaScript code snippets.'
     },
     {
         name: 'stackblitz',
@@ -38,14 +38,14 @@ export const ressourceData = [
         category: 'Programming Tools',
         image: 'lien_de_l_image',
         description:
-            'An online IDE for web development with built-in collaboration and deployment.',
+            'An online IDE for web development with built-in collaboration and deployment.'
     },
     {
         name: 'jsonplaceholder',
         link: 'https://jsonplaceholder.typicode.com/',
         category: 'Programming Tools',
         image: 'lien_de_l_image',
-        description: 'A fake online REST API for testing and prototyping.',
+        description: 'A fake online REST API for testing and prototyping.'
     },
     // Documentation
     {
@@ -54,7 +54,7 @@ export const ressourceData = [
         category: 'Documentation',
         imageLink: "URL_de_l'image",
         description:
-            'MDN Web Docs provides detailed documentation on web technologies, including HTML, CSS, and JavaScript.',
+            'MDN Web Docs provides detailed documentation on web technologies, including HTML, CSS, and JavaScript.'
     },
     {
         name: 'DevDocs',
@@ -62,7 +62,7 @@ export const ressourceData = [
         category: 'Documentation',
         imageLink: "URL_de_l'image",
         description:
-            'DevDocs offers offline access to web development documentation for various programming languages and frameworks.',
+            'DevDocs offers offline access to web development documentation for various programming languages and frameworks.'
     },
     {
         name: 'JavaScript.info',
@@ -70,7 +70,7 @@ export const ressourceData = [
         category: 'Documentation',
         imageLink: "URL_de_l'image",
         description:
-            'JavaScript.info is a comprehensive resource for learning JavaScript, featuring tutorials and examples.',
+            'JavaScript.info is a comprehensive resource for learning JavaScript, featuring tutorials and examples.'
     },
     {
         name: 'Bootstrap',
@@ -78,7 +78,7 @@ export const ressourceData = [
         category: 'Documentation',
         imageLink: "URL_de_l'image",
         description:
-            'Bootstrap is a popular front-end framework that simplifies web development with ready-to-use components.',
+            'Bootstrap is a popular front-end framework that simplifies web development with ready-to-use components.'
     },
     {
         name: 'Tailwind CSS',
@@ -86,7 +86,7 @@ export const ressourceData = [
         category: 'Documentation',
         imageLink: "URL_de_l'image",
         description:
-            'Tailwind CSS provides utility classes to rapidly build custom designs without writing custom CSS.',
+            'Tailwind CSS provides utility classes to rapidly build custom designs without writing custom CSS.'
     },
     {
         name: 'React',
@@ -94,7 +94,7 @@ export const ressourceData = [
         category: 'Documentation',
         imageLink: "URL_de_l'image",
         description:
-            'React is a JavaScript library for building user interfaces, maintained by Facebook.',
+            'React is a JavaScript library for building user interfaces, maintained by Facebook.'
     },
     {
         name: 'Next.js',
@@ -102,7 +102,7 @@ export const ressourceData = [
         category: 'Documentation',
         imageLink: "URL_de_l'image",
         description:
-            'Next.js is a React framework for building server-rendered React applications.',
+            'Next.js is a React framework for building server-rendered React applications.'
     },
     {
         name: 'Angular',
@@ -110,7 +110,7 @@ export const ressourceData = [
         category: 'Documentation',
         imageLink: "URL_de_l'image",
         description:
-            'Angular is a platform for building web applications, maintained by Google.',
+            'Angular is a platform for building web applications, maintained by Google.'
     },
     {
         name: 'Vue.js',
@@ -118,7 +118,7 @@ export const ressourceData = [
         category: 'Documentation',
         imageLink: "URL_de_l'image",
         description:
-            'Vue.js is a progressive JavaScript framework for building user interfaces.',
+            'Vue.js is a progressive JavaScript framework for building user interfaces.'
     },
     {
         name: 'jQuery',
@@ -126,7 +126,7 @@ export const ressourceData = [
         category: 'Documentation',
         imageLink: "URL_de_l'image",
         description:
-            'jQuery is a fast, small, and feature-rich JavaScript library that simplifies HTML document traversal and manipulation.',
+            'jQuery is a fast, small, and feature-rich JavaScript library that simplifies HTML document traversal and manipulation.'
     },
     // Tricks & technology watch
     {
@@ -135,7 +135,7 @@ export const ressourceData = [
         category: 'Tricks & technology watch',
         imageLink: "URL_de_l'image",
         description:
-            'Stack Overflow is a community-driven question and answer platform for programmers.',
+            'Stack Overflow is a community-driven question and answer platform for programmers.'
     },
     {
         name: 'daily.dev',
@@ -143,7 +143,7 @@ export const ressourceData = [
         category: 'Tricks & technology watch',
         imageLink: "URL_de_l'image",
         description:
-            'daily.dev is a browser extension that delivers the best programming news every new tab.',
+            'daily.dev is a browser extension that delivers the best programming news every new tab.'
     },
     {
         name: 'dev.to',
@@ -151,7 +151,7 @@ export const ressourceData = [
         category: 'Tricks & technology watch',
         imageLink: "URL_de_l'image",
         description:
-            'dev.to is a community of software developers discussing programming topics and sharing knowledge.',
+            'dev.to is a community of software developers discussing programming topics and sharing knowledge.'
     },
     {
         name: 'CSS-Tricks',
@@ -159,7 +159,7 @@ export const ressourceData = [
         category: 'Tricks & technology watch',
         imageLink: "URL_de_l'image",
         description:
-            'CSS-Tricks provides guides, articles, and resources on web design and development.',
+            'CSS-Tricks provides guides, articles, and resources on web design and development.'
     },
     {
         name: 'Smashing Magazine',
@@ -167,7 +167,7 @@ export const ressourceData = [
         category: 'Tricks & technology watch',
         imageLink: "URL_de_l'image",
         description:
-            'Smashing Magazine offers articles and resources for web designers and developers.',
+            'Smashing Magazine offers articles and resources for web designers and developers.'
     },
     {
         name: 'SitePoint',
@@ -175,7 +175,7 @@ export const ressourceData = [
         category: 'Tricks & technology watch',
         imageLink: "URL_de_l'image",
         description:
-            'SitePoint is a hub for web developers, offering articles, books, and courses on web technologies.',
+            'SitePoint is a hub for web developers, offering articles, books, and courses on web technologies.'
     },
     // Styling & Image
     {
@@ -184,7 +184,7 @@ export const ressourceData = [
         category: 'Styling & Image',
         imageLink: "URL_de_l'image",
         description:
-            'Google Fonts provides a wide selection of free and open-source web fonts for your projects.',
+            'Google Fonts provides a wide selection of free and open-source web fonts for your projects.'
     },
     {
         name: 'Typekit',
@@ -192,7 +192,7 @@ export const ressourceData = [
         category: 'Styling & Image',
         imageLink: "URL_de_l'image",
         description:
-            'Typekit by Adobe offers high-quality fonts for use on the web and in print.',
+            'Typekit by Adobe offers high-quality fonts for use on the web and in print.'
     },
     {
         name: 'CSS Gradient',
@@ -200,7 +200,7 @@ export const ressourceData = [
         category: 'Styling & Image',
         imageLink: "URL_de_l'image",
         description:
-            'CSS Gradient provides tools and resources for creating beautiful CSS gradients.',
+            'CSS Gradient provides tools and resources for creating beautiful CSS gradients.'
     },
     {
         name: 'Paletton',
@@ -208,15 +208,23 @@ export const ressourceData = [
         category: 'Styling & Image',
         imageLink: "URL_de_l'image",
         description:
-            'Paletton is a color scheme designer tool that helps you create harmonious color palettes.',
+            'Paletton is a color scheme designer tool that helps you create harmonious color palettes.'
     },
+    {
+        name: 'imagecolorpicker',
+        link: 'https://imagecolorpicker.com/',
+        category: 'Styling & Image',
+        imageLink: "URL_de_l'image",
+        description: 'Extract and match colors effortlessly from images.'
+    },
+
     {
         name: 'Adobe Color',
         link: 'https://color.adobe.com/',
         category: 'Styling & Image',
         imageLink: "URL_de_l'image",
         description:
-            'Adobe Color allows you to create, explore, and share color themes for your projects.',
+            'Adobe Color allows you to create, explore, and share color themes for your projects.'
     },
     {
         name: 'Font Awesome',
@@ -224,7 +232,7 @@ export const ressourceData = [
         category: 'Styling & Image',
         imageLink: "URL_de_l'image",
         description:
-            'Font Awesome offers a library of free icons that can be customized and used in web projects.',
+            'Font Awesome offers a library of free icons that can be customized and used in web projects.'
     },
     {
         name: 'icon8',
@@ -232,7 +240,7 @@ export const ressourceData = [
         category: 'Styling & Image',
         image: 'lien_de_l_image',
         description:
-            'A resource for high-quality icons, illustrations, and photos.',
+            'A resource for high-quality icons, illustrations, and photos.'
     },
     {
         name: 'FreePik',
@@ -240,21 +248,21 @@ export const ressourceData = [
         category: 'Styling & Image',
         image: 'lien_de_l_image',
         description:
-            'A platform for free and premium graphics, vectors, photos, and more.',
+            'A platform for free and premium graphics, vectors, photos, and more.'
     },
     {
         name: 'imageresizer',
         link: 'https://www.image-resizer.com/',
         category: 'Styling & Image',
         image: 'lien_de_l_image',
-        description: 'An online tool for resizing and cropping images.',
+        description: 'An online tool for resizing and cropping images.'
     },
     {
         name: 'TinyPNG',
         link: 'https://tinypng.com/',
         category: 'Styling & Image',
         image: 'lien_de_l_image',
-        description: 'Compress and optimize your PNG images with this tool.',
+        description: 'Compress and optimize your PNG images with this tool.'
     },
     {
         name: 'Dribbble',
@@ -262,7 +270,7 @@ export const ressourceData = [
         category: 'Styling & Image',
         image: 'lien_de_l_image',
         description:
-            'Showcase and discover creative work from designers around the world.',
+            'Showcase and discover creative work from designers around the world.'
     },
     {
         name: 'Awwwards',
@@ -270,14 +278,14 @@ export const ressourceData = [
         category: 'Styling & Image',
         image: 'lien_de_l_image',
         description:
-            'Recognizes the talent and effort of web designers, developers, and agencies.',
+            'Recognizes the talent and effort of web designers, developers, and agencies.'
     },
     {
         name: 'Animate.css',
         link: 'https://animate.style/',
         category: 'Styling & Image',
         image: 'lien_de_l_image',
-        description: 'A library of cross-browser CSS animations.',
+        description: 'A library of cross-browser CSS animations.'
     },
     // Leand and Practice
     {
@@ -286,7 +294,7 @@ export const ressourceData = [
         category: 'Learn and Practice',
         image: 'URL_de_l_image_freecodecamp',
         description:
-            'A free, open-source curriculum for learning web development, data visualization, and more.',
+            'A free, open-source curriculum for learning web development, data visualization, and more.'
     },
     {
         name: 'Total TypeScript',
@@ -294,7 +302,7 @@ export const ressourceData = [
         category: 'Learn and Practice',
         image: 'URL_de_l_image_totaltypescript',
         description:
-            'A comprehensive resource to learn TypeScript from scratch.',
+            'A comprehensive resource to learn TypeScript from scratch.'
     },
     {
         name: 'Codecademy',
@@ -302,7 +310,7 @@ export const ressourceData = [
         category: 'Learn and Practice',
         image: 'URL_de_l_image_codecademy',
         description:
-            'Interactive coding lessons and projects to learn various programming languages.',
+            'Interactive coding lessons and projects to learn various programming languages.'
     },
     {
         name: 'OpenClassrooms',
@@ -310,7 +318,7 @@ export const ressourceData = [
         category: 'Learn and Practice',
         image: 'URL_de_l_image_openclassrooms',
         description:
-            'Online courses on web development, data science, and more, in French and English.',
+            'Online courses on web development, data science, and more, in French and English.'
     },
     {
         name: 'Coursera',
@@ -318,7 +326,7 @@ export const ressourceData = [
         category: 'Learn and Practice',
         image: 'URL_de_l_image_coursera',
         description:
-            'Online courses, specializations, and degrees from top universities and companies.',
+            'Online courses, specializations, and degrees from top universities and companies.'
     },
     {
         name: 'Udemy',
@@ -326,7 +334,7 @@ export const ressourceData = [
         category: 'Learn and Practice',
         image: 'URL_de_l_image_udemy',
         description:
-            'Online courses on a wide range of topics, including web development and programming.',
+            'Online courses on a wide range of topics, including web development and programming.'
     },
     {
         name: 'LeetCode',
@@ -334,7 +342,7 @@ export const ressourceData = [
         category: 'Learn and Practice',
         image: 'URL_de_l_image_leetcode',
         description:
-            'Practice coding challenges, prepare for technical interviews, and improve your coding skills.',
+            'Practice coding challenges, prepare for technical interviews, and improve your coding skills.'
     },
     {
         name: 'Exercism',
@@ -342,6 +350,6 @@ export const ressourceData = [
         category: 'Learn and Practice',
         image: 'URL_de_l_image_exercism',
         description:
-            'Exercism provides coding challenges and mentorship to help you level up your programming skills.',
-    },
+            'Exercism provides coding challenges and mentorship to help you level up your programming skills.'
+    }
 ];

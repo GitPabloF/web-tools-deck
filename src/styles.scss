@@ -10,6 +10,31 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Amiko', sans-serif;
+}
+
+header {
+    padding: 50px 0;
+}
+header img {
+    width: 3.5em;
+    margin-bottom: 12px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-family: 'Press Start 2P', sans-serif;
+}
+footer {
+    margin-top: auto;
+}
+
+li .flex-fill {
+    overflow: hidden;
+}
+.ressource__details {
+    width: 100%;
+    overflow: hidden;
 }
 
 .footer__logos img {
@@ -24,4 +49,17 @@ li {
 .ressource__icon > img {
     width: 2.5em;
     height: 2.5em;
+}
+
+@media screen and (max-height: 700px) {
+    footer {
+        position: fixed;
+        bottom: 0;
+
+        .ressource__icon,
+        .ressource__icon > img {
+            width: 12.5em;
+            height: 12.5em;
+        }
+    }
 }
