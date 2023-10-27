@@ -195,6 +195,14 @@ export const ressourceData = [
             'Typekit by Adobe offers high-quality fonts for use on the web and in print.'
     },
     {
+        name: 'Radix UI',
+        link: 'https://www.radix-ui.com/colors',
+        category: 'User Interface',
+        image: 'lien_de_l_image',
+        description:
+            'Comprehensive color system for designing beautiful, accessible websites and apps.'
+    },
+    {
         name: 'CSS Gradient',
         link: 'https://cssgradient.io/',
         category: 'Styling & Image',
