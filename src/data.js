@@ -197,7 +197,7 @@ export const ressourceData = [
     {
         name: 'Radix UI',
         link: 'https://www.radix-ui.com/colors',
-        category: 'User Interface',
+        category: 'Styling & Image',
         image: 'lien_de_l_image',
         description:
             'Comprehensive color system for designing beautiful, accessible websites and apps.'
