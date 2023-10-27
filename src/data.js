@@ -218,6 +218,14 @@ export const ressourceData = [
         description:
             'Paletton is a color scheme designer tool that helps you create harmonious color palettes.'
     },
+
+    {
+        name: 'Realtimecolors',
+        link: 'https://www.realtimecolors.com/',
+        category: 'Styling & Image',
+        imageLink: "URL_de_l'image",
+        description: 'Visualize random colors and fonts on a real website '
+    },
     {
         name: 'imagecolorpicker',
         link: 'https://imagecolorpicker.com/',
