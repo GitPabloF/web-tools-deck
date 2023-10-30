@@ -361,6 +361,22 @@ export const ressourceData = [
             'Practice coding challenges, prepare for technical interviews, and improve your coding skills.'
     },
     {
+        name: 'Hacker Rank',
+        link: 'https://www.hackerrank.com/',
+        category: 'Learn and Practice',
+        image: 'URL_de_l_image_exercism',
+        description:
+            'HackerRank is the market-leading coding test and interview solution for hiring developers. Start hiring at the pace of innovation!'
+    },
+    {
+        name: 'Coding Game',
+        link: 'https://www.codingame.com/',
+        category: 'Learn and Practice',
+        image: 'URL_de_l_image_exercism',
+        description:
+            'CodinGame is a challenge-based training platform for programmers where you can play with the hottest programming topics. Solve games, code AI bots'
+    },
+    {
         name: 'Exercism',
         link: 'https://exercism.io/',
         category: 'Learn and Practice',
